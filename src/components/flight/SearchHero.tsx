@@ -80,7 +80,7 @@ const SearchHero: React.FC<SearchHeroProps> = ({ onSearch, isLoading = false }) 
                     id="bookingNumber"
                     value={bookingNumber}
                     onChange={handleInputChange}
-                    placeholder="Enter Booking Number (e.g. 02GHUY)"
+                    placeholder="Enter Booking Number"
                     className={`w-full pl-12 pr-4 py-4 text-lg font-mono tracking-wider border-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-[#0033A0]/20 transition-all ${
                       error 
                         ? 'border-red-300 focus:border-red-500' 
