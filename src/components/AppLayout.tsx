@@ -170,13 +170,13 @@ const AppLayout: React.FC = () => {
 
               <button className="hidden lg:flex items-center gap-2 text-gray-600 hover:text-[#0033A0] transition-colors">
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.2a1 1 0 01.94.64l1.49 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.49a1 1 0 01.64.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.24 3 6V5z" />
                 </svg>
-                <span className="font-medium">1-831-2218866</span>
+                <span className="font-medium">+1 8312218866</span>
               </button>
               <button className="md:hidden p-2 text-gray-600 hover:text-[#0033A0]">
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 1h16" />
                 </svg>
               </button>
             </div>
@@ -192,11 +192,11 @@ const AppLayout: React.FC = () => {
             {/* Quick Access to Saved Trips */}
             {savedTrips.length > 0 && (
               <div className="bg-white border-b border-gray-200">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px- py-6">
                   <div className="flex items-center justify-between mb-4">
                     <h2 className="text-lg font-bold text-gray-900 flex items-center gap-2">
                       <svg className="w-5 h-5 text-[#0033A0]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 v4l3 3m6-3a9 9 0 11-1 0 9 9 0 0118 0z" />
                       </svg>
                       Recent Trips
                     </h2>
