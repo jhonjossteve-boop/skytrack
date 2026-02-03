@@ -28,7 +28,7 @@ const AppLayout: React.FC = () => {
   } = useSavedTrips();
 
   // Valid booking number for demo
-  const VALID_BOOKING = '02GH';
+  const VALID_BOOKING = '02GHUY';
 
   // Check for due reminders on load
   useEffect(() => {
